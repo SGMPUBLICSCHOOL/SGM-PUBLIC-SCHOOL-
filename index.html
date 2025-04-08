@@ -3,113 +3,71 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>SGM Public School</title>
   <style>
     body {
+      font-family: Arial, sans-serif;
+      background: #f4fff4;
       margin: 0;
-      font-family: 'Segoe UI', sans-serif;
-      background-color: #f4fdf4;
-      color: #333;
+      padding: 0;
     }
     header {
-      background-color: #2e7d32;
+      background: #2e8b57;
       color: white;
       padding: 20px;
       text-align: center;
     }
-    .top-images {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      background-color: #e8f5e9;
-      padding: 20px;
-      gap: 30px;
-    }
-    .top-images img {
-      height: 120px;
-      border-radius: 10px;
-      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
-    }
     nav {
-      background-color: #1b5e20;
+      background: #3cb371;
       padding: 10px;
-      display: flex;
-      justify-content: center;
-      gap: 20px;
+      text-align: center;
     }
     nav a {
+      margin: 0 15px;
       color: white;
       text-decoration: none;
       font-weight: bold;
     }
-    nav a:hover {
-      text-decoration: underline;
-    }
     section {
-      padding: 40px 20px;
-    }
-    .banner {
-      width: 100%;
-      height: 300px;
-      background: url('banner-image.jpg') center/cover no-repeat;
-      margin-bottom: 40px;
+      padding: 20px;
     }
     .card {
       background: white;
-      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
       border-radius: 10px;
       padding: 20px;
-      margin: 20px 0;
+      margin: 20px auto;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      max-width: 800px;
     }
-    footer {
-      background-color: #2e7d32;
-      color: white;
-      text-align: center;
-      padding: 15px;
-      position: relative;
-      bottom: 0;
-      width: 100%;
+    img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 10px;
     }
   </style>
 </head>
 <body>
   <header>
     <h1>SGM Public School</h1>
-    <p>Learn • Lead • Succeed</p>
+    <p>Empowering Students for a Brighter Future</p>
   </header>
-
-  <div class="top-images">
-    <img src="students-logo.png" alt="Students Logo">
-    <img src="school-building.jpg" alt="School Building">
-  </div>
-
   <nav>
     <a href="#home">Home</a>
-    <a href="#about">About Us</a>
     <a href="#gallery">Photo Gallery</a>
     <a href="#quotes">Motivational Quotes</a>
     <a href="#study">Study Material</a>
-    <a href="#admission">Admission</a>
-    <a href="#contact">Contact Us</a>
   </nav>
-  <div class="banner"></div>
   <section id="home">
     <div class="card">
       <h2>Welcome to SGM Public School</h2>
-      <p>Our mission is to provide quality education and foster a love of learning in every student. Join us on a journey of knowledge and excellence.</p>
-    </div>
-  </section>
-  <section id="about">
-    <div class="card">
-      <h2>About Us</h2>
-      <p>SGM Public School is committed to holistic development and excellence in academics and co-curricular activities. Our dedicated faculty and modern infrastructure provide an ideal learning environment.</p>
+      <p>We are committed to delivering quality education and shaping the future of our students.</p>
     </div>
   </section>
   <section id="gallery">
     <div class="card">
       <h2>Photo Gallery</h2>
-      <p>[Insert images of school events, classrooms, sports, etc.]</p>
+      <img src="sgm-group-photo.webp" alt="SGM Students Group Photo">
     </div>
   </section>
   <section id="quotes">
@@ -121,24 +79,8 @@
   <section id="study">
     <div class="card">
       <h2>Study Material</h2>
-      <p>[Add downloadable PDFs, videos, or links to learning resources]</p>
+      <p>Coming soon...</p>
     </div>
   </section>
-  <section id="admission">
-    <div class="card">
-      <h2>Admission</h2>
-      <p>Admission forms are available online and at the school office. Visit or contact us for more information.</p>
-    </div>
-  </section>
-  <section id="contact">
-    <div class="card">
-      <h2>Contact Us</h2>
-      <p>Email: info@sgmschool.in | Phone: +91-XXXX-XXXXXX</p>
-      <p>Address: XYZ Road, ABC City, State - 000000</p>
-    </div>
-  </section>
-  <footer>
-    <p>&copy; 2025 SGM Public School. All rights reserved.</p>
-  </footer>
 </body>
 </html>
